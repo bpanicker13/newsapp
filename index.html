@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+		<!-- Foundation Libraries -->
+		<link href="https://cdnjs.cloudflare.com/ajax/libs/foundation/5.5.2/css/foundation.min.css" rel="stylesheet" type="text/css" />
+		<!--[if lt IE 9]>
+		  <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.6.2/html5shiv.js"></script>
+		  <script src="https://s3.amazonaws.com/nwapi/nwmatcher/nwmatcher-1.2.5-min.js"></script>
+		  <script src="https://html5base.googlecode.com/svn-history/r38/trunk/js/selectivizr-1.0.3b.js"></script>
+		  <script src="https://cdnjs.cloudflare.com/ajax/libs/respond.js/1.1.0/respond.min.js"></script>
+		<![endif]-->
+
+		<link href="style.css" rel="stylesheet">
+
+		<!-- Semantic UI Libraries -->
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/1.11.8/semantic.min.css"/>
+
+		<title>Sanghamam | NYTimes</title>
+	</head>
+
+	<body>
+
+		<div class="ui right demo vertical inverted sidebar labeled icon menu">
+		  <a class="item"><i class="home icon"></i>Home</a>
+		  <a class="item"><i class="world icon"></i>World</a>
+		  <a class="item"><i class="flag outline icon"></i>National</a>
+		  <a class="item"><i class="legal icon"></i>Politics</a>
+		  <a class="item"><i class="money icon"></i>Business</a>
+		  <a class="item"><i class="keyboard icon"></i>Tech</a>
+		  <a class="item"><i class="lightning icon"></i>Science</a>
+		  <a class="item"><i class="treatment icon"></i>Health</a>
+		  <a class="item" id="sports"><i class="soccer icon"></i>Sports</a>
+		  <a class="item"><i class="theme icon"></i>Arts</a>
+		  <a class="item"><i class="diamond icon"></i>Fashion</a>
+		</div>
+
+		<button id="sidebar-button" class="circular ui icon button">
+		  <i class="sidebar icon"></i>
+		</button>
+
+		<br>
+
+		<div class="small-12 medium-3 columns" id="story-specific">
+				<a class="image" href=""><img src="./sang.png" /></a>
+			<h1>Top Story Trends</h1>
+			<div class="ui stackable cards">
+			  <div class="card">
+			    <a class="image" href="">
+			      <img src="" />
+			    </a>
+			    <div class="extra content caption" style="font-size:0.8em;"></div>
+			    <div class="content">
+			      <div class="header"></div>
+			      <div class="byline" style="font-size:0.8em;"></div>
+			      <div class="description">
+			      </div>
+			    </div>
+			    <div class="extra content">
+			      <a class="link" href="#"><i class="book icon"></i>Read story</a>
+			    </div>
+			  </div>
+			</div>
+		</div>
+
+		<main class="small-12 medium-9 columns" id="examples"></main>
+
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/1.11.8/semantic.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.12/d3.js" charset="utf-8"></script>
+		<script src="alt.js"></script>
+
+	</body>
+</html>
+
+
